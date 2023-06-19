@@ -19,7 +19,7 @@ public class BasicNavigations {
 
         //This line will maximize the currently opened browser
         driver.manage().window().maximize();
-        //driver.manage().window().fullscreen(); // for mac is more appropriate
+        //driver.manage().window().fullscreen();
 
         //Go to tesla.com
         driver.get("www.tesla.com");
@@ -72,3 +72,5 @@ public class BasicNavigations {
 
     }
 }
+
+
