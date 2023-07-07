@@ -17,4 +17,9 @@ public class DynamicLoad7Page {
 
     @FindBy(xpath = "//img[@alt='square pants']")
     public WebElement spongeBobImage;
+
+
+    // We are eliminating the StaleElement Reference by using the Page Object Model because, the WebElement reference refreshed.
+    // Freshness check happens==> Refreshing the element reference automatically without having to do anything (handling).
+
 }
